@@ -27,10 +27,19 @@ body {
 
 .button-container {
   background: #e3f4ff;
+  padding: 8px;
+}
+
+.centre {
+  display: block;
+  width: 45px;
+  height: 20px;
+  margin: 0 auto;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
   margin: 0 auto;
 }
