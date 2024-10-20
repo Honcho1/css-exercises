@@ -13,6 +13,7 @@ body {
 .header,
 .footer {
   display: flex;
+  padding: 16px;
 }
 
 .left-links,
@@ -32,6 +33,7 @@ li {
 
 a {
   text-decoration: none;
+  color: #201f1fdf;
 }
 
 img {
