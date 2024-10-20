@@ -18,12 +18,16 @@ body {
 .left-links,
 .right-links {
   display: flex;
+  gap: 10px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 li {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 
 a {
