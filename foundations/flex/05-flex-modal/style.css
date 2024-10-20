@@ -37,11 +37,22 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .header-text {
   font-weight: bold;
   font-size: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header,
+.text {
+  margin-bottom: 10px;
 }
 
 .close-button {
