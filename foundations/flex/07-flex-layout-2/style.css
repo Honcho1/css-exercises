@@ -46,6 +46,13 @@ body {
 .card-container {
   display: flex;
   padding: 48px;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.card-container > div {
+  flex-basis: 300px;
+  padding: 16px;
 }
 
 .card {
@@ -58,6 +65,10 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+li {
+  margin-bottom: 16px;
 }
 
 ul a {
